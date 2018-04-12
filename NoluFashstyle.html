@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Ten columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 10</div>
+    <img src="https://www.fashionaut.it/wp-content/uploads/2017/03/cover-1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 10</div>
+    <img src="/home/quirky30/Public/NOLU/Outfits/17-yeezy.w750.h560.2x.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 10</div>
+    <img src="https://media.elobservador.com.uy/adjuntos/181/imagenes/012/203/0012203442.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 10</div>
+    <img src="http://www.missinfo.tv/wp-content/uploads/2016/09/kanye-west-yeezy-season-4-15.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 10</div>
+    <img src="http://www.missinfo.tv/wp-content/uploads/2016/09/kanye-west-yeezy-season-4-9.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 10</div>
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/4c/d2/70/4cd270f25a5c855b1e10380141c917ea.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides">
+    <div class="numbertext">7 / 10</div>
+    <img src="http://www1.pictures.zimbio.com/gi/Kanye+West+Yeezy+Season+4+Front+Row+Arrivals+vYK8e5_Bwbcx.jpg" style="width:100%">
+  </div>
+  
+<div class="mySlides">
+    <div class="numbertext">8 / 10 </div>
+    <img src="http://porhomme.com/wp-content/uploads/2015/02/kanye-west-adidas-originals-yeezy-season-1-one-fw-2015-6.jpg" style="width:100%">
+  </div> 
+
+<div class="mySlides">
+    <div class="numbertext">9 / 10 </div>
+    <img src="http://thesource.com/wp-content/uploads/2016/02/091715-video-kanye-west-fashion-show-nyfw-2015-5.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides">
+    <div class="numbertext">10 / 10 </div>
+    <img src="https://cdn.cnn.com/cnnnext/dam/assets/160908133121-02-kanye-west-yeezy-fashion-show-restricted-super-tease.jpg" style="width:100%">
+  </div>
+
+
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://www.fashionaut.it/wp-content/uploads/2017/03/cover-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Cat Walk">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/home/quirky30/Public/NOLU/Outfits/17-yeezy.w750.h560.2x.jpg" " style="width:100%" onclick="currentSlide(2)" alt="Yeezy Show">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://media.elobservador.com.uy/adjuntos/181/imagenes/012/203/0012203442.jpg" style="width:100%"    onclick="currentSlide(3)" alt="Camouflage">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://www.missinfo.tv/wp-content/uploads/2016/09/kanye-west-yeezy-season-4-15.jpg" style="width:100%" onclick="currentSlide(4)" alt="All Black">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://www.missinfo.tv/wp-content/uploads/2016/09/kanye-west-yeezy-season-4-9.jpg" style="width:100%" onclick="currentSlide(5)" alt="Neutrals">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://s-media-cache-ak0.pinimg.com/originals/4c/d2/70/4cd270f25a5c855b1e10380141c917ea.jpg" style="width:100%" onclick="currentSlide(6)" alt="Clear White">
+    </div>
+
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+
+<style>
+
+header{
+  text-align: center;
+  background-size: cover;
+  background: url("https://scontent.fcpt1-1.fna.fbcdn.net/v/t1.0-9/15390644_1444430525567883_7915800286186144733_n.jpg?_nc_cat=0&oh=6f8a9644a8cbe8b7ed4dbc13f6bc8ec8&oe=5B2B3182");
+  color: white;
+}
+a{
+  color: white;
+}
+h1{
+  font-size: 70px;
+}
+img{
+  margin: 40px 0px 0px 0px;
+  border: 7px Solid white;
+  border-radius: 20px;
+}
+ul{
+  padding: 10px;
+  background: black;
+}
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+</style>
+</head>
+<body>
+  <header>
+
+ <h1>KNOLUH_B</h1>
+  <div id="container">
+    <ul>
+    <li>HOME</li>
+    <li>ABOUT
+         <ul>
+             <li>About Me</li>
+             <li>Fav Quotes</li>
+    </ul>
+    <li>STYLE
+     <ul>
+        <li>Oufits</li>
+        <li>Beaty</li>
+      </ul>
+      </li>
+    <li>TRAVEL
+     <ul>
+       <li>Places I've been</li>
+      </ul>
+      </li>
+    <li>POETRY
+       <ul>
+       <li>My Words</li>
+      </ul>
+      </li>
+  </ul>
+  </header>
+</body>

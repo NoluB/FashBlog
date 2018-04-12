@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+html { 
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  margin: 0;
+  max-width: 750px;
+  margin:10vh auto 0 auto;
+}
+
+.container > div {
+  display: inline-block;
+}
+
+#slideshow {
+  margin: 0;
+	position: relative;
+	width: 620px;
+        height: 250px;
+}
+
+#slideshow > div {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+}
+
+#slideshow img {
+  width: 100%;
+  margin: 0;
+  border: solid 1px cream;
+}
+
+a {
+  width: 40px;
+  font-size: 64px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 400px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-style: oblique;
+}
+header{ 
+text-align: center;
+}
+
+body{
+background: url("http://www.cityam.com/assets/uploads/main-image/cam_standard_article_main_image/alternative-views-milan-fashion-week-womenswear-spring-summer-2015-455782102-57c9692e0d447.jpg");
+background-size: cover;
+background-position: center;
+}
+
+p{
+color: grey;
+font-family: oblique;
+font-size: 50%;
+}
+
+h1{
+position: center;
+color: grey;
+font-family: oblique;
+text-align: center;
+}
+
+h2{
+color: grey;
+position: center;
+text-align: center;
+}
+
+</style>
+
+<body>
+<div class="hero image">
+   <div class="hero text">
+<h1 style="font-size:30px"> About Nolu
+<h2 style="font-size:2x"> Known as 'Lulu Lemons'
+<header>
+
+<article>
+
+
+<p>Nolu is a creative who has a great ardour to fashion, travel and poetry. Her blog is a  platform  that she uses to express herself as a artist, stylist and a place where her creative thoughts come to bloom.</p>
+
+<p>'Lulu Lemons' aspires to be at the forefront of what she does and in doing so, hopes to inspire her readers religiously.
+In addition to her blog, she aims to set sparkle on dormant perspectives and enlighten her readers on the intricacies in fashion styling, Travel and poetry. Her blog aims to free marganilized ideals society has caused us to view the world in.</p>
+
+<p>Nolu has worked with other creatives, A- list bloggers, collaborated with different artists in styling for their photo shoots and music videos.</p>
+
+
+<p>A beautitiful poetical flow can be seen through the different pursuits she featured in and completed. She prefers to let her work speak for itself and this can be appreciated by her use of the different genres in chlothing.</p> 
+
+<p>Be it street fashion, minimalistic, high fashion or just lazy laid back looks shes got her finger on the pulse of things.
+
+Lemons is a well of ideas,  knowledge and has alternative views on the world and its sphere.
+
+</p>
+
+
+
+</body>
+</html>
